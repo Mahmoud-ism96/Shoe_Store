@@ -18,5 +18,13 @@
     <string name="next_button">Next</string>
     <string name="finish_button">Finish</string>
     <string name="previous_button">Previous</string>
+    <string name="shoe_list_title">Shoe List</string>
+    <string name="shoe_detail_title">Shoe Details</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="shoe_company">Shoe Company</string>
+    <string name="shoe_description">Shoe Description</string>
+    <string name="shoe_image">Shoe Image</string>
+    <string name="save_button">Save</string>
 
 </resources>

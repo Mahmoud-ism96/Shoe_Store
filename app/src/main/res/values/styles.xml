@@ -36,9 +36,9 @@
     <style name="BaseButtons">
         <item name="android:textSize">@dimen/button_text_size</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_margin">@dimen/margin_wide</item>
-        <item name="android:background">@color/basic_blue</item>
+        <item name="android:background">@drawable/button_style</item>
     </style>
 
 </resources>

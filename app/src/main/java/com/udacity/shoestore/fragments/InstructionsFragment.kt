@@ -20,6 +20,7 @@ class InstructionsFragment : Fragment() {
         binding = InstructionFragmentBinding.inflate(layoutInflater)
 
         previousOnClickListener()
+        finishOnClickListener()
 
         return binding.root
     }
@@ -32,7 +33,7 @@ class InstructionsFragment : Fragment() {
 
     private fun finishOnClickListener() {
         binding.finishButton.setOnClickListener {
-            findNavController().navigate(LoginFragmentDirections.actionLoginFragmentToWelcomeFragment())
+            findNavController().navigate(InstructionsFragmentDirections.actionInstructionsFragmentToShoeListFragment())
         }
     }
 

@@ -34,5 +34,22 @@
             android:id="@+id/action_instructionsFragment_to_welcomeFragment"
             app:destination="@id/welcomeFragment"
             app:popUpTo="@id/welcomeFragment" />
+        <action
+            android:id="@+id/action_instructionsFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/shoeListFragment"
+        android:name="com.udacity.shoestore.fragments.ShoeListFragment"
+        android:label="ShoeListFragment"
+        tools:layout="@layout/shoe_list_fragment">
+        <action
+            android:id="@+id/action_shoeListFragment_to_shoeDetailsFragment"
+            app:destination="@id/shoeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/shoeDetailsFragment"
+        android:name="com.udacity.shoestore.fragments.ShoeDetailsFragment"
+        android:label="ShoeDetailsFragment"
+        tools:layout="@layout/shoe_details_fragment"/>
 </navigation>
