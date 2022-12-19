@@ -74,5 +74,24 @@
         <item name="android:layout_width">match_parent</item>
     </style>
 
+    <style name="ShoeInfoLabel">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/margin_half</item>
+        <item name="android:layout_marginLeft">@dimen/margin_half</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ShoeInfo">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_half</item>
+        <item name="android:layout_marginLeft">@dimen/margin_half</item>
+    </style>
+
 
 </resources>

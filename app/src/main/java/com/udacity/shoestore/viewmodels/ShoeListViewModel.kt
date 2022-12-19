@@ -1,5 +1,6 @@
 package com.udacity.shoestore.viewmodels
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -11,7 +12,32 @@ class ShoeListViewModel : ViewModel() {
     val shoes: LiveData<List<Shoe>>
         get() = _shoes
 
-    fun setShoes(shoes: List<Shoe>) {
-        _shoes.value = shoes
+    private val shoeList = mutableListOf<Shoe>()
+
+    var shoeName: String = ""
+    var shoeSize: String = ""
+    var shoeCompany: String = ""
+    var shoeDescription: String = ""
+
+    fun addNewShoe() {
+        if (ifEmpty()) {
+            Log.i("FINDME","Not Empty")
+            shoeList.add(Shoe(shoeName, shoeSize.toDouble(), shoeCompany, shoeDescription))
+            _shoes.value = shoeList
+        }
+
     }
+
+    private fun ifEmpty(): Boolean {
+        return !(shoeName.isBlank() || shoeSize.isBlank() || shoeCompany.isBlank() || shoeDescription.isBlank())
+    }
+
+    fun emptyData() {
+        shoeName = ""
+        shoeSize = ""
+        shoeCompany = ""
+        shoeDescription = ""
+    }
+
+
 }
