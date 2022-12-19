@@ -33,5 +33,6 @@
     <string name="welcome_paragraph_two">Our app allows you to search for shoes by category, size, color, price, and other criteria. You can also save your favorite styles to your wishlist, or create a virtual \"try on\" by uploading a photo of your feet. If you need help finding the right fit or style.</string>
     <string name="welcome_paragraph_three">In addition to offering a convenient shopping experience, we also strive to provide the best value for our customers.</string>
     <string name="welcome_paragraph_four">Thank you for choosing our app as your go-to destination for shoe shopping. We hope you find the perfect pair of shoes that fits your needs, budget, and style!</string>
+    <string name="instructions">"In the next section, you will find an empty Shoe Inventory. to add shoe in into your list press on the <b>+</b> Button on the bottom-right side."</string>
 
 </resources>

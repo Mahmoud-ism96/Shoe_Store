@@ -1,6 +1,5 @@
 package com.udacity.shoestore.viewmodels
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -21,7 +20,6 @@ class ShoeListViewModel : ViewModel() {
 
     fun addNewShoe() {
         if (ifEmpty()) {
-            Log.i("FINDME","Not Empty")
             shoeList.add(Shoe(shoeName, shoeSize.toDouble(), shoeCompany, shoeDescription))
             _shoes.value = shoeList
         }
