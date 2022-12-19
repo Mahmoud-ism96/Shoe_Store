@@ -39,6 +39,40 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_margin">@dimen/margin_wide</item>
         <item name="android:background">@drawable/button_style</item>
+        <item name="android:padding">@dimen/padding_quarter</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
     </style>
+
+    <style name="ShoeLabels">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">@dimen/margin_quarter</item>
+        <item name="android:layout_marginStart">@dimen/margin_half</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ShoeEditText">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">@dimen/margin_quarter</item>
+        <item name="android:layout_marginRight">@dimen/margin_half</item>
+        <item name="android:layout_marginBottom">@dimen/margin_quarter</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="WelcomeText">
+        <item name="android:textSize">@dimen/detail_label_text_size</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">@dimen/margin_half</item>
+        <item name="android:layout_marginRight">@dimen/margin_half</item>
+        <item name="android:layout_marginBottom">@dimen/margin_half</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
 
 </resources>

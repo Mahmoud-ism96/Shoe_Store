@@ -27,4 +27,11 @@
     <string name="shoe_image">Shoe Image</string>
     <string name="save_button">Save</string>
 
+    <string name="logout">Logout</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="welcome_paragraph_one">Welcome to our shoe shopping app! We know how important it is to find the perfect pair of shoes, whether you\'re looking for comfortable sneakers for your daily jog, stylish heels for a special occasion, or durable boots for outdoor adventures.</string>
+    <string name="welcome_paragraph_two">Our app allows you to search for shoes by category, size, color, price, and other criteria. You can also save your favorite styles to your wishlist, or create a virtual \"try on\" by uploading a photo of your feet. If you need help finding the right fit or style.</string>
+    <string name="welcome_paragraph_three">In addition to offering a convenient shopping experience, we also strive to provide the best value for our customers.</string>
+    <string name="welcome_paragraph_four">Thank you for choosing our app as your go-to destination for shoe shopping. We hope you find the perfect pair of shoes that fits your needs, budget, and style!</string>
+
 </resources>
